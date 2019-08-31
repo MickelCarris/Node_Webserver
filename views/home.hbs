@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <style>
+    body {
+      background: teal;
+      color: white;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+    }
+
+    li {
+      margin-right: 1rem;
+    }
+
+    a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  {{> header}}
+  <p>{{screamIt body}}</p>
+  {{> footer}}
+</body>
+
+</html>
