@@ -44,6 +44,12 @@ app.get('/about', (req, res) => {
   });
 });
 
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    title: 'Projects'
+  });
+});
+
 const staticFolder = path.join(__dirname, 'public');
 
 app.use(express.static(staticFolder));

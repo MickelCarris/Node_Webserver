@@ -6,32 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>About</title>
-  <style>
-    body {
-      background: #240a01;
-      color: #fff;
-    }
-
-    ul {
-      display: flex;
-      list-style: none;
-      margin: 0;
-    }
-
-    li {
-      margin-right: 1rem;
-    }
-
-    a {
-      color: white;
-    }
-  </style>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  {{> header}}
-  <p>{{body}}</p>
-  {{> footer}}
+  <div class="container">
+    {{> header}}
+    <p>{{body}}</p>
+    {{> footer}}
+  </div>
 </body>
 
 </html>
