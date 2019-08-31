@@ -1,5 +1,5 @@
 body {
-  background: teal;
+  background: #135050;
   color: white;
 }
 .container {
@@ -13,12 +13,25 @@ ul {
   display: flex;
   list-style: none;
   margin: 0;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  background: #333;
 }
 
 li {
-  margin-right: 1rem;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+li:hover {
+  background: orangered;
 }
 
 a {
   color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 5rem;
 }
